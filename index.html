@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#FFE93C">
+  <title>Screen Time Calculator — Your Scroll Math | Swing</title>
+  <meta name="description" content="See what a change in daily scrolling minutes adds up to. Free screen time calculator, seven-day tracker and student phone plan. No account or tracking.">
+  <link rel="canonical" href="https://swing.so/scroll-time-calculator/">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Swing">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Screen Time Calculator — Your Scroll Math | Swing">
+  <meta property="og:description" content="See what a change in daily scrolling minutes adds up to. Free calculator and student resources. No account or tracking.">
+  <meta property="og:url" content="https://swing.so/scroll-time-calculator/">
+  <meta property="og:image" content="https://swing.so/og-image.png?v=3">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image:alt" content="Swing: Get trolled when you scroll, on a bright yellow background">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Screen Time Calculator — Your Scroll Math | Swing">
+  <meta name="twitter:description" content="See what a change in daily scrolling minutes adds up to. Free calculator and student resources. No account or tracking.">
+  <meta name="twitter:image" content="https://swing.so/og-image.png?v=3">
+  <meta name="twitter:image:alt" content="Swing: Get trolled when you scroll, on a bright yellow background">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self'; form-action 'none'; base-uri 'none'">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png?v=4">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.mjs"></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","@id":"https://aspireai.com/#organization","name":"Aspire","legalName":"Aspire Labs, Inc.","url":"https://aspireai.com/"},
+    {"@type":"WebPage","@id":"https://swing.so/scroll-time-calculator/#webpage","url":"https://swing.so/scroll-time-calculator/","name":"Screen Time Calculator — Your Scroll Math | Swing","description":"See what a change in daily scrolling minutes adds up to. Free screen time calculator, seven-day tracker and student phone plan. No account or tracking.","isPartOf":{"@id":"https://swing.so/#website"},"mainEntity":{"@id":"https://swing.so/scroll-time-calculator/#tool"}},
+    {"@type":"WebApplication","@id":"https://swing.so/scroll-time-calculator/#tool","name":"Swing scroll-time calculator","url":"https://swing.so/scroll-time-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Web browser","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"description":"Calculates the hypothetical time difference between two daily screen-time amounts over a chosen number of days. Does not measure device usage or predict results.","publisher":{"@id":"https://aspireai.com/#organization"}},
+    {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Swing","item":"https://swing.so/"},{"@type":"ListItem","position":2,"name":"Scroll-time calculator","item":"https://swing.so/scroll-time-calculator/"}]}
+  ]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to the calculator</a>
+  <main id="main-content">
+    <nav aria-label="Swing navigation"><a class="brand" href="/">Swing</a><a href="/scroll-less-guides/">Guides</a></nav>
+    <h1>Your scroll math.</h1>
+    <p class="intro">Twenty minutes sounds tiny. Add it up.</p>
+    <form id="calculator" novalidate>
+      <div class="inputs">
+        <label>Now: minutes a day<input id="before" type="number" min="0" max="1440" step="any" inputmode="decimal" placeholder="e.g. 120" required></label>
+        <label>Plan: minutes a day<input id="after" type="number" min="0" max="1440" step="any" inputmode="decimal" placeholder="e.g. 100" required></label>
+        <label>For how many days?<input id="days" type="number" min="1" max="366" step="1" inputmode="numeric" value="7" required></label>
+      </div>
+      <button type="submit">Show the math</button>
+      <p id="error" role="alert"></p>
+    </form>
+    <noscript><p>JavaScript is off. The math is simple: (minutes now − minutes planned) × days. For example, (120 − 100) × 7 = 140 minutes. This is a hypothetical difference, not measured time saved.</p></noscript>
+    <section id="result" aria-live="polite" aria-atomic="true" hidden>
+      <h2 id="total"></h2><p id="breakdown"></p>
+      <p class="small">That’s a hypothetical difference if you follow this plan. This calculator does not measure usage or promise time saved.</p>
+    </section>
+    <p class="small">Your numbers stay in this tab. No uploads, accounts or analytics. Refreshing clears them.</p>
+    <section class="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Try it for a week.</h2>
+      <p>Use the same apps and device. Record each completed day, then compare with the previous full week.</p>
+      <p><a href="/resources/7-day-scroll-reset.xlsx" download>Get the seven-day tracker (.xlsx)</a></p>
+      <p>Need a tiny plan for finals? <a href="/resources/your-phone-plan-for-finals.pptx" download>Get the six-slide phone plan (.pptx)</a>.</p>
+      <p class="small">Both downloads are free. No Swing subscription required. A personal comparison cannot prove what caused a change.</p>
+    </section>
+    <section class="resources" aria-labelledby="setup-heading">
+      <h2 id="setup-heading">Catch the automatic tap.</h2>
+      <p>Swing is an iPhone app blocker with a funny interruption. You choose the apps and when to unblock. <a href="/how-it-works/">See the actual setup</a> or <a href="/app-blocker-for-college-students/">build a phone plan for college</a>.</p>
+    </section>
+    <footer>By <a href="https://aspireai.com/" rel="noreferrer">Aspire</a>, makers of Swing.<br>Get trolled when you scroll.<br><a href="https://github.com/aspirelabs-inc/swing-scroll-math" rel="noreferrer">Calculator source code</a> · <a href="/privacy/">Privacy</a> · <a href="/support/">Support</a></footer>
+  </main>
+  <aside id="debug" hidden aria-label="Design controls">
+    <details open><summary>Design controls</summary>
+      <label>Preset<select id="preset"><option value="plain">Plain</option><option value="airy">Airy</option><option value="loud">Loud</option><option value="compact">Compact</option><option value="ink">Ink</option><option value="lilac">Lilac</option></select></label>
+      <label>Heading size<input id="heading-size" type="range" min="40" max="88" value="68"></label>
+      <label>Spacing<input id="spacing" type="range" min="16" max="48" value="28"></label>
+      <label>Button rounding<input id="rounding" type="range" min="4" max="32" value="18"></label>
+      <label><input id="motion" type="checkbox"> Subtle motion</label>
+    </details>
+  </aside>
+</body></html>
